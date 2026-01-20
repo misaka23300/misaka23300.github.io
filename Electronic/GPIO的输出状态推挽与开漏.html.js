@@ -1,0 +1,16 @@
+import comp from "C:/code_V5.0/clone/md_code_hope/src/.vuepress/.temp/pages/Electronic/GPIO的输出状态推挽与开漏.html.vue"
+const data = JSON.parse("{\"path\":\"/Electronic/GPIO%E7%9A%84%E8%BE%93%E5%87%BA%E7%8A%B6%E6%80%81%E6%8E%A8%E6%8C%BD%E4%B8%8E%E5%BC%80%E6%BC%8F.html\",\"title\":\"输出\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2024-09-25T22:54:00.000Z\",\"category\":\"电子\",\"description\":\"输出 GPIO有三种输出状态:高电平,低电平,高阻态. 推挽输出 GPIO为高电平或低电平. 推是高电平把电流推出去,低电平时电流流进来,为挽. 开漏输出 GPIO为低电平或高阻态. 高阻态配置上拉电阻可看做高电平. 当GPIO为高阻态时,VCC通过电阻到输出,输出高电平. 当GPIO为低电平时,输出为低电平. 应用 改变高电平的电压. GPIO的电平...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"输出\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2024-09-25T22:54:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"menherachan\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://laffey4590.asia/Electronic/GPIO%E7%9A%84%E8%BE%93%E5%87%BA%E7%8A%B6%E6%80%81%E6%8E%A8%E6%8C%BD%E4%B8%8E%E5%BC%80%E6%BC%8F.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"基于vuepress的网站\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"输出\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"输出 GPIO有三种输出状态:高电平,低电平,高阻态. 推挽输出 GPIO为高电平或低电平. 推是高电平把电流推出去,低电平时电流流进来,为挽. 开漏输出 GPIO为低电平或高阻态. 高阻态配置上拉电阻可看做高电平. 当GPIO为高阻态时,VCC通过电阻到输出,输出高电平. 当GPIO为低电平时,输出为低电平. 应用 改变高电平的电压. GPIO的电平...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2024-09-25T22:54:00.000Z\"}]]},\"readingTime\":{\"minutes\":0.75,\"words\":226},\"filePathRelative\":\"Electronic/GPIO的输出状态推挽与开漏.md\",\"excerpt\":\"\\n<p>GPIO有三种输出状态:<strong>高电平,低电平,高阻态.</strong>\\n\\n</p>\\n<h2>推挽输出</h2>\\n<p>GPIO为高电平或低电平.<br>\\n推是高电平把电流推出去,低电平时电流流进来,为挽.</p>\\n<h2>开漏输出</h2>\\n<p>GPIO为低电平或高阻态.\\n高阻态配置上拉电阻可看做高电平.\\n\\n当GPIO为高阻态时,VCC通过电阻到输出,输出高电平.<br>\\n当GPIO为低电平时,输出为低电平.</p>\\n<h3>应用</h3>\\n<ol>\\n<li>\\n<p>改变高电平的电压.<br>\\nGPIO的电平电压与接收方电平不一样时,<br>\\n上拉电阻的VCC为接收方支持的电压,<br>\\n当GPIO为高阻态时就可以输出接收方可以接受的电压.</p>\\n</li>\\n<li>\\n<p>两个GPIO控制一个输入.</p>\\n</li>\\n</ol>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

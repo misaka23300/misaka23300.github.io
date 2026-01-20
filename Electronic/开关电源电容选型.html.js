@@ -1,0 +1,16 @@
+import comp from "C:/code_V5.0/clone/md_code_hope/src/.vuepress/.temp/pages/Electronic/开关电源电容选型.html.vue"
+const data = JSON.parse("{\"path\":\"/Electronic/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90%E7%94%B5%E5%AE%B9%E9%80%89%E5%9E%8B.html\",\"title\":\"电容选型\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2024-09-25T22:54:00.000Z\",\"category\":\"电子\",\"description\":\"电容选型 举个例子 Bluck芯片: XL7025 $$ C_{in} =\\\\frac {I_{out-max} * V_{out}} {ΔV_{in} * F_{sw}* V_{in-min}} $$ 小容量靠近芯片 0.1μF $C_{in}$:输入电容 大容量电容与小容量电容并联 大容量越大越好 小容量0.1μF的MLCC电容 耐压 最小 大于1....\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"电容选型\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2024-09-25T22:54:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"menherachan\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://laffey4590.asia/Electronic/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90%E7%94%B5%E5%AE%B9%E9%80%89%E5%9E%8B.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"基于vuepress的网站\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"电容选型\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"电容选型 举个例子 Bluck芯片: XL7025 $$ C_{in} =\\\\frac {I_{out-max} * V_{out}} {ΔV_{in} * F_{sw}* V_{in-min}} $$ 小容量靠近芯片 0.1μF $C_{in}$:输入电容 大容量电容与小容量电容并联 大容量越大越好 小容量0.1μF的MLCC电容 耐压 最小 大于1....\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2024-09-25T22:54:00.000Z\"}]]},\"readingTime\":{\"minutes\":1.28,\"words\":383},\"filePathRelative\":\"Electronic/开关电源电容选型.md\",\"excerpt\":\"\\n<h3>举个例子</h3>\\n<ul>\\n<li>Bluck芯片: XL7025</li>\\n</ul>\\n<p>$$ C_{in} =\\\\frac {I_{out-max} * V_{out}}\\n{ΔV_{in} * F_{sw}* V_{in-min}} $$</p>\\n<p>小容量靠近芯片 0.1μF</p>\\n<h2>$C_{in}$:输入电容</h2>\\n<ol>\\n<li>大容量电容与小容量电容并联</li>\\n<li>大容量越大越好</li>\\n<li>小容量0.1μF的MLCC电容</li>\\n<li>耐压 最小 大于1.5倍输入电压</li>\\n</ol>\\n<h3>输入大容量电容选型:</h3>\\n<ol>\\n<li>MLCC</li>\\n<li>钽电容\\n<blockquote>\\n<p>最高不用 如果用要三倍耐压。</p>\\n</blockquote>\\n</li>\\n<li>固态电容\\n<blockquote>\\n<p>耐压不高 最高35V</p>\\n</blockquote>\\n</li>\\n<li>高频低阻固态电容</li>\\n<li>普通电解电容</li>\\n</ol>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

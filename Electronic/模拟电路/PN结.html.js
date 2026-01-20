@@ -1,0 +1,16 @@
+import comp from "C:/code_V5.0/clone/md_code_hope/src/.vuepress/.temp/pages/Electronic/模拟电路/PN结.html.vue"
+const data = JSON.parse("{\"path\":\"/Electronic/%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF/PN%E7%BB%93.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"description\":\"载流子 本征激发 自由电子 空穴 复合 载流子的浓度 在本征半导体惨入少量的杂质。 N型半导体(negative) 惨入少量磷(五价元素)，会多出来一个电子， 77029217200591622 存在大量自由电子， 载流子: 自由电子: 多子 空穴: 少子 P型半导体 惨入少量硼(三价元素)\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"menherachan\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://laffey4590.asia/Electronic/%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF/PN%E7%BB%93.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"基于vuepress的网站\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"载流子 本征激发 自由电子 空穴 复合 载流子的浓度 在本征半导体惨入少量的杂质。 N型半导体(negative) 惨入少量磷(五价元素)，会多出来一个电子， 77029217200591622 存在大量自由电子， 载流子: 自由电子: 多子 空穴: 少子 P型半导体 惨入少量硼(三价元素)\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"readingTime\":{\"minutes\":0.31,\"words\":94},\"filePathRelative\":\"Electronic/模拟电路/PN结.md\",\"excerpt\":\"<h2>载流子</h2>\\n<ul>\\n<li>本征激发</li>\\n<li>自由电子</li>\\n<li>空穴</li>\\n<li>复合</li>\\n</ul>\\n<h2>载流子的浓度</h2>\\n<p>在本征半导体惨入少量的杂质。</p>\\n<ul>\\n<li>N型半导体(negative)\\n惨入少量磷(五价元素)，会多出来一个电子，\\n\\n存在大量自由电子，\\n<ul>\\n<li>载流子:\\n<ul>\\n<li>自由电子: 多子</li>\\n<li>空穴: 少子</li>\\n</ul>\\n</li>\\n</ul>\\n</li>\\n<li>P型半导体\\n惨入少量硼(三价元素)</li>\\n</ul>\\n\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

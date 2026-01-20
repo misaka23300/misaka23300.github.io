@@ -1,0 +1,16 @@
+import comp from "C:/code_V5.0/clone/md_code_hope/src/.vuepress/.temp/pages/Electronic/线性稳压器.html.vue"
+const data = JSON.parse("{\"path\":\"/Electronic/%E7%BA%BF%E6%80%A7%E7%A8%B3%E5%8E%8B%E5%99%A8.html\",\"title\":\"线性稳压器 (LDO)\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2024-09-25T22:54:00.000Z\",\"category\":\"电子\",\"description\":\"线性稳压器 (LDO) ldo-s 当输出电压低于输入电压时，必须从负载电源和压降比来考虑要采用线性稳压器 (LDO) 或降压转换器 (Buck). 低压降线性稳压器 (LDO) 适合用在需求低噪讯、低电流和低压降比的应用中。 LDO 透过线性的方式控制被动组件的导通来调节输出电压。线性稳压可提供准确而无噪讯的输出电压，并且对负载变化有很快的反应速度。...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"线性稳压器 (LDO)\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2024-09-25T22:54:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"menherachan\\\",\\\"url\\\":\\\"https://mister-hope.com\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://laffey4590.asia/Electronic/%E7%BA%BF%E6%80%A7%E7%A8%B3%E5%8E%8B%E5%99%A8.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"基于vuepress的网站\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"线性稳压器 (LDO)\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"线性稳压器 (LDO) ldo-s 当输出电压低于输入电压时，必须从负载电源和压降比来考虑要采用线性稳压器 (LDO) 或降压转换器 (Buck). 低压降线性稳压器 (LDO) 适合用在需求低噪讯、低电流和低压降比的应用中。 LDO 透过线性的方式控制被动组件的导通来调节输出电压。线性稳压可提供准确而无噪讯的输出电压，并且对负载变化有很快的反应速度。...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2024-09-25T22:54:00.000Z\"}]]},\"readingTime\":{\"minutes\":1.47,\"words\":441},\"filePathRelative\":\"Electronic/线性稳压器.md\",\"excerpt\":\"\\n<p>\\n当输出电压低于输入电压时，必须从负载电源和压降比来考虑要采用线性稳压器 (LDO) 或降压转换器 (Buck).</p>\\n<p><strong>低压降线性稳压器</strong> (LDO) 适合用在需求低噪讯、低电流和低压降比的应用中。</p>\\n<p>LDO 透过线性的方式控制被动组件的导通来调节输出电压。线性稳压可提供<strong>准确</strong>而<strong>无噪讯</strong>的输出电压，并且对负载变化有很快的反应速度。</p>\\n<p>但线性稳压的作法，也代表输入输出间的压差乘上其平均负载电流会转换为 LDO 被动组件的功率耗散。功率耗散的计算如下：</p>\\n\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

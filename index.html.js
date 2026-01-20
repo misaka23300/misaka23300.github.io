@@ -1,0 +1,16 @@
+import comp from "C:/code_V5.0/clone/md_code_hope/src/.vuepress/.temp/pages/index.html.vue"
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"Ciallo～(∠・ω< )⌒☆\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"Ciallo～(∠・ω< )⌒☆\",\"heroText\":\"你好呀\",\"tagline\":\"总之，有在认真生活的人，都是好人！ --by 七濑胡桃\",\"bgImage\":\"https://tc.d3tt.com/images/FuBSl0jqJ_lPOsk52JAdJV-bj-T5.jpg\",\"bgImageDark\":\"https://tc.d3tt.com/images/FmF9iQKRi88-ZiJiPLaYeYXaJJEr.jpg\",\"heroFullScreen\":true,\"projects\":[{\"icon\":\"project\",\"name\":\"Python\",\"desc\":\"Ciallo～(∠・ω< )⌒☆\",\"link\":\"/Python/\"},{\"icon\":\"link\",\"name\":\"Docker\",\"desc\":\"Ciallo～(∠・ω< )⌒☆\",\"link\":\"/Docker/\"},{\"icon\":\"book\",\"name\":\"JavaScript\",\"desc\":\"Ciallo～(∠・ω< )⌒☆\",\"link\":\"/JavaScript/\"},{\"icon\":\"friend\",\"name\":\"伙伴名称\",\"desc\":\"伙伴详细介绍\",\"link\":\"https://你的伙伴链接\"}],\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"Ciallo～(∠・ω< )⌒☆\\\"}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://laffey4590.asia/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"基于vuepress的网站\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Ciallo～(∠・ω< )⌒☆\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"readingTime\":{\"minutes\":0.3,\"words\":91},\"filePathRelative\":\"README.md\",\"excerpt\":\"\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
